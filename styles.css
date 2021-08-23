@@ -1,0 +1,137 @@
+.Card-Container {
+	max-width: 375px;
+	margin: 16vh auto;
+	background-color: var(--background-card);
+	border-radius: 16px;
+}
+
+header img {
+	width: 100%;
+	border-radius: 16px 16px 0 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+main h1 {
+	font-size: 28px;
+	text-align: center;
+	font-weight: 900;
+
+	margin: 16px auto;
+	color: var(--font-color-primary);
+}
+
+main p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+
+	max-width: 360px;
+	margin: 16px auto;
+	color: var(--font-color-secondary);
+}
+
+.plan-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 320px;
+	height: 80px;
+	margin: 16px auto;
+	border-radius: 16px;
+
+	background-color: hsl(224, 76%, 95%);
+}
+
+.icon-container {
+	max-width: 48px;
+	border-radius: 50%;
+	margin: auto 20px;
+}
+
+.plan-container div {
+	display: flex;
+	flex-direction: row;
+}
+
+.plan-container div div {
+	flex-direction: column;
+}
+
+.plan-container div h2 {
+	font-size: 16px;
+	font-weight: 900;
+	text-align: start;
+
+	color: var(--font-color-primary);
+}
+
+.plan-container div p {
+	text-align: start;
+	margin: 0;
+}
+
+.plan-container .change {
+	margin-right: 20px;
+	color: var(--button-color);
+	font-weight: 700;
+
+	transition: ease-in 0.2s;
+}
+
+.plan-container .change:hover {
+	color: hsl(245, 92%, 67%);
+	text-decoration: none;
+}
+
+.process-button {
+	width: 320px;
+	height: 48px;
+	margin: 8px auto;
+
+	background-color: var(--button-color);
+	box-shadow: 0px 12px 10px 2px hsla(245, 75%, 52%, 0.199);
+	color: #FFF;
+	border: none;
+	border-radius: 12px;
+
+	font-weight: 700;
+	font-size: 16px;
+
+	transition: ease-in 0.2s;
+}
+
+.process-button:hover {
+	background-color: hsl(245, 92%, 67%);
+}
+
+.cancel-button {
+	width: 320px;
+	height: 48px;
+	margin: 8px auto 16px auto;
+
+	background-color: transparent;
+	color: var(--font-color-secondary);
+	border: none;
+	border-radius: 16px;
+
+	font-weight: 900;
+	font-size: 16px;
+
+	transition: ease-in 0.2s;
+}
+
+.cancel-button:hover {
+	color: var(--font-color-primary);
+}
+
+footer {
+	margin: auto;
+	text-align: center;
+}

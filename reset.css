@@ -1,0 +1,40 @@
+:root {
+	--background-card: hsl(225, 100%, 98%);
+	--background: hsl(225, 100%, 94%);
+
+	--font-color-primary: hsl(223, 47%, 23%);
+	--font-color-secondary: hsl(224, 23%, 55%);
+
+	--button-color: hsl(245, 75%, 52%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media (min-width: 420px) {
+	body {
+		background: url(/images/pattern-background-desktop.svg) no-repeat;
+		background-size: 100vw auto;
+	}
+}
+
+body {
+	background-color: var(--background);
+	-webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+	font-weight: 700;
+}
+
+button {
+	cursor: pointer;
+}
