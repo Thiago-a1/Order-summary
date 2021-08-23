@@ -16,7 +16,7 @@
 
 @media (min-width: 420px) {
 	body {
-		background: url(/images/pattern-background-desktop.svg) no-repeat;
+		background: url(images/pattern-background-desktop.svg) no-repeat;
 		background-size: 100vw auto;
 	}
 }
